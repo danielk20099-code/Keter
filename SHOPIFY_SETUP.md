@@ -66,3 +66,9 @@ The native theme uses Shopify’s `customer` newsletter form and `contact` form.
 `shopify-theme/` is the native Online Store theme. Its homepage sections, product templates, scripts, and styles are separate files. The original Next.js storefront remains unchanged in `app/` and `components/`; Shopify cannot directly host that Next.js app.
 
 Run `npm run theme:check` and `npm run theme:test` to validate the theme. `theme-tests/` is a local Liquid fixture renderer and browser tests, excluded from the theme ZIP. The ZIP contains only Shopify’s `assets`, `config`, `layout`, `locales`, `sections`, `snippets`, and `templates` directories.
+
+## Editorial design revision
+
+The revised theme improves typography, the story composition, collection visual scale, textile studies, and lookbook layout. Fonts are self-hosted; their licenses are included in the theme assets. The fabric image is an illustrative mood study, not verified product photography. Replace it in **Customize → Material lab → Fabric study triptych** with three equal columns (cotton, interlock, double knit). Product photography continues to come from **Products → Media**.
+
+Upload the revised ZIP as a new theme and preview it before publishing. This does not alter your Shopify products or pages.
